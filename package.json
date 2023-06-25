@@ -1,0 +1,28 @@
+{
+  "name": "backendtest",
+  "version": "1.0.0",
+  "description": "Be sure to read **all** of this document carefully, and follow the guidelines within.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maverickkhan/backendtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.22"
+  },
+  "bugs": {
+    "url": "https://github.com/maverickkhan/backendtest/issues"
+  },
+  "homepage": "https://github.com/maverickkhan/backendtest#readme"
+}
